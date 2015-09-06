@@ -1,0 +1,51 @@
+Source: kcalcore
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.12.0~),
+               libical-dev,
+               libkf5kdelibs4support-dev (>= 5.12.0~),
+               pkg-kde-tools (>> 0.15.15)
+Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
+Homepage: https://projects.kde.org/projects/kde/pim/kcalcore
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kcalcore.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kcalcore.git
+
+Package: libkf5calendarcore-dev
+Section: libdevel
+Architecture: any
+Depends: libical-dev,
+         libkf5calendarcore5 (= ${binary:Version}),
+         libkf5kdelibs4support-dev,
+         ${misc:Depends}
+Description: development files for kcalcore
+ This library provides access to and handling of calendar data.
+ It supports the standard formats iCalendar and vCalendar and the
+ group scheduling standard iTIP.
+ .
+ This package contains the development files.
+
+Package: libkf5calendarcore5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: calendar access framework
+ This library provides access to and handling of calendar data.
+ It supports the standard formats iCalendar and vCalendar and the
+ group scheduling standard iTIP.
+
+Package: libkf5calendarcore-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Depends: libkf5calendarcore5 (= ${binary:Version}), ${misc:Depends}
+Description: debug symbols for kcalcore
+ This library provides access to and handling of calendar data.
+ It supports the standard formats iCalendar and vCalendar and the
+ group scheduling standard iTIP.
+ .
+ This package contains the debug symbols.
