@@ -5,9 +5,10 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.12.0~),
-               libical-dev,
+               libical-dev (>= 0.42~),
                libkf5kdelibs4support-dev (>= 5.12.0~),
-               pkg-kde-tools (>> 0.15.15)
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev (>= 5.2.0~)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/pim/kcalcore
@@ -17,9 +18,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kcalcore.git
 Package: libkf5calendarcore-dev
 Section: libdevel
 Architecture: any
-Depends: libical-dev,
+Depends: libical-dev (>= 0.42~),
          libkf5calendarcore5 (= ${binary:Version}),
-         libkf5kdelibs4support-dev,
+         libkf5kdelibs4support-dev (>= 5.12.0~),
          ${misc:Depends}
 Description: development files for kcalcore
  This library provides access to and handling of calendar data.
