@@ -1,6 +1,7 @@
 kcalcore (4:15.08.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.1).
+  * Removed private classes from exported symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 20:06:50 +0200
 

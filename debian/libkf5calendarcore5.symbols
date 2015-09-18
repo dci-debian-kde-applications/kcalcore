@@ -1,9 +1,5 @@
-# SymbolsHelper-Confirmed: 15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64
 libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
- Parse_MIME@Base 15.07.90
- Parse_MIME_FromFile@Base 15.07.90
- Parse_MIME_FromFileName@Base 15.07.90
- YYDebug@Base 15.07.90
  _Z5qHashRKN8KCalCore6PeriodE@Base 15.07.90
  _Z5qHashRKN8KCalCore6PersonE@Base 15.07.90
  _ZN8KCalCore10Attachment11setMimeTypeERK7QString@Base 15.07.90
@@ -1271,44 +1267,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZZZN8KCalCore8Calendar7PrivateC4EvENKUlvE0_clEvE15qstring_literal@Base 15.08.0
  _ZZZN8KCalCore8Calendar7PrivateC4EvENKUlvE_clEvE15qstring_literal@Base 15.08.0
  _ZZZNK8KCalCore16CustomProperties7Private18isVolatilePropertyERK7QStringENKUlvE_clEvE15qstring_literal@Base 15.08.0
- addGroup@Base 15.07.90
- addList@Base 15.07.90
- addProp@Base 15.07.90
- addPropSizedValue@Base 15.07.90
- addPropSizedValue_@Base 15.07.90
- addPropValue@Base 15.07.90
- addProp_@Base 15.07.90
- addVObjectProp@Base 15.07.90
- cleanStrTbl@Base 15.07.90
- cleanVObject@Base 15.07.90
- cleanVObjects@Base 15.07.90
- deleteStr@Base 15.07.90
- deleteVObject@Base 15.07.90
- dupStr@Base 15.07.90
- fakeCString@Base 15.07.90
- fakeUnicode@Base 15.07.90
- fieldedProp@Base 15.07.90
- initLex@Base 15.07.90
- initPropIterator@Base 15.07.90
- initVObjectIterator@Base 15.07.90
- isAPropertyOf@Base 15.07.90
- lexBuf@Base 15.07.90
- lexGetStrUntil@Base 15.07.90
- lexPushLookahead@Base 15.07.90
- lookupProp@Base 15.07.90
- lookupProp_@Base 15.07.90
- lookupStr@Base 15.07.90
- mime_char@Base 15.07.90
- mime_lineNum@Base 15.07.90
- mime_nerrs@Base 15.07.90
- mime_numErrors@Base 15.07.90
- mime_parse@Base 15.07.90
- mime_yylval@Base 15.07.90
- moreIteration@Base 15.07.90
- newVObject@Base 15.07.90
- newVObject_@Base 15.07.90
- nextVObject@Base 15.07.90
- nextVObjectInList@Base 15.07.90
  (c++)"non-virtual thunk to KCalCore::Calendar::customPropertyUpdated()@Base" 15.07.90
  (c++)"non-virtual thunk to KCalCore::Calendar::incidenceUpdated(QString const&, KDateTime const&)@Base" 15.07.90
  (c++)"non-virtual thunk to KCalCore::Calendar::~Calendar()@Base" 15.07.90
@@ -1320,33 +1278,3 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  (c++)"non-virtual thunk to KCalCore::MemoryCalendar::incidenceUpdated(QString const&, KDateTime const&)@Base" 15.07.90
  (c++)"non-virtual thunk to KCalCore::MemoryCalendar::~MemoryCalendar()@Base" 15.07.90
  (c++)"non-virtual thunk to KCalCore::Todo::~Todo()@Base" 15.07.90
- printVObject@Base 15.07.90
- printVObjectToFile@Base 15.07.90
- printVObjectsToFile@Base 15.07.90
- registerMimeErrorHandler@Base 15.07.90
- setVObjectAnyValue@Base 15.07.90
- setVObjectIntegerValue@Base 15.07.90
- setVObjectLongValue@Base 15.07.90
- setVObjectName@Base 15.07.90
- setVObjectStringZValue@Base 15.07.90
- setVObjectStringZValue_@Base 15.07.90
- setVObjectUStringZValue@Base 15.07.90
- setVObjectUStringZValue_@Base 15.07.90
- setVObjectVObjectValue@Base 15.07.90
- setValueWithSize@Base 15.07.90
- setValueWithSize_@Base 15.07.90
- uStrLen@Base 15.07.90
- unUseStr@Base 15.07.90
- vObjectAnyValue@Base 15.07.90
- vObjectIntegerValue@Base 15.07.90
- vObjectLongValue@Base 15.07.90
- vObjectName@Base 15.07.90
- vObjectStringZValue@Base 15.07.90
- vObjectUStringZValue@Base 15.07.90
- vObjectVObjectValue@Base 15.07.90
- vObjectValueType@Base 15.07.90
- writeMemVObject@Base 15.07.90
- writeMemVObjects@Base 15.07.90
- writeVObject@Base 15.07.90
- writeVObjectToFile@Base 15.07.90
- writeVObjectsToFile@Base 15.07.90
