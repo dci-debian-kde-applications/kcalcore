@@ -1,9 +1,9 @@
-kcalcore (4:15.08.1-1~) UNRELEASED; urgency=medium
+kcalcore (4:15.08.1-1) experimental; urgency=medium
 
   * New upstream release (15.08.1).
   * Removed private classes from exported symbols.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 20:06:50 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:27 +0200
 
 kcalcore (4:15.08.0-1) experimental; urgency=medium
 
