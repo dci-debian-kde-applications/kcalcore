@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64
 libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _Z5qHashRKN8KCalCore6PeriodE@Base 15.07.90
  _Z5qHashRKN8KCalCore6PersonE@Base 15.07.90
@@ -111,7 +111,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore10RecurrenceD2Ev@Base 15.07.90
  _ZN8KCalCore10RecurrenceaSERKS0_@Base 15.07.90
  _ZN8KCalCore10VCalFormat10ISOToQDateERK7QString@Base 15.07.90
- _ZN8KCalCore10VCalFormat10dayFromNumEi@Base 15.07.90
  _ZN8KCalCore10VCalFormat10fromStringERK14QSharedPointerINS_8CalendarEERK7QStringbS8_@Base 15.07.90
  _ZN8KCalCore10VCalFormat10numFromDayERK7QString@Base 15.07.90
  _ZN8KCalCore10VCalFormat10qDateToISOERK5QDate@Base 15.07.90
@@ -209,7 +208,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore13IncidenceBase6setUidERK7QString@Base 15.07.90
  _ZN8KCalCore13IncidenceBase6setUrlERK4QUrl@Base 15.07.90
  _ZN8KCalCore13IncidenceBase6updateEv@Base 15.07.90
- _ZN8KCalCore13IncidenceBase7Private4initERKS1_@Base 15.08.0
  _ZN8KCalCore13IncidenceBase7updatedEv@Base 15.07.90
  _ZN8KCalCore13IncidenceBase9setAllDayEb@Base 15.07.90
  _ZN8KCalCore13IncidenceBaseC1ERKS0_@Base 15.07.90
@@ -250,8 +248,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore14MemoryCalendar22deleteJournalInstancesERK14QSharedPointerINS_7JournalEE@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar24deleteIncidenceInstancesERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar5closeEv@Base 15.07.90
- _ZN8KCalCore14MemoryCalendar7Private15insertIncidenceERK14QSharedPointerINS_9IncidenceEE@Base 15.08.0
- _ZN8KCalCore14MemoryCalendar7Private19deleteAllIncidencesENS_13IncidenceBase13IncidenceTypeE@Base 15.08.0
  _ZN8KCalCore14MemoryCalendar7addTodoERK14QSharedPointerINS_4TodoEE@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar8addEventERK14QSharedPointerINS_5EventEE@Base 15.07.90
  _ZN8KCalCore14MemoryCalendarC1ERK7QString@Base 15.07.90
@@ -282,12 +278,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore14RecurrenceRule16setByWeekNumbersERK5QListIiE@Base 15.07.90
  _ZN8KCalCore14RecurrenceRule17setRecurrenceTypeENS0_10PeriodTypeE@Base 15.07.90
  _ZN8KCalCore14RecurrenceRule5clearEv@Base 15.07.90
- _ZN8KCalCore14RecurrenceRule7Private16buildConstraintsEv@Base 15.08.0
- _ZN8KCalCore14RecurrenceRule7Private5clearEv@Base 15.08.0
- _ZN8KCalCore14RecurrenceRule7Private8setDirtyEv@Base 15.08.0
- _ZN8KCalCore14RecurrenceRule7PrivateC1EPS0_RKS1_@Base 15.08.0
- _ZN8KCalCore14RecurrenceRule7PrivateC2EPS0_RKS1_@Base 15.08.0
- _ZN8KCalCore14RecurrenceRule7PrivateaSERKS1_@Base 15.08.0
  _ZN8KCalCore14RecurrenceRule7WDayPos6setDayEs@Base 15.07.90
  _ZN8KCalCore14RecurrenceRule7WDayPos6setPosEi@Base 15.07.90
  _ZN8KCalCore14RecurrenceRule7WDayPosC1Eis@Base 15.07.90
@@ -325,15 +315,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore16CustomPropertiesD1Ev@Base 15.07.90
  _ZN8KCalCore16CustomPropertiesD2Ev@Base 15.07.90
  _ZN8KCalCore16CustomPropertiesaSERKS0_@Base 15.07.90
- _ZN8KCalCore16FreeBusyUrlStore4selfEv@Base 15.08.0
- _ZN8KCalCore16FreeBusyUrlStore4syncEv@Base 15.08.0
- _ZN8KCalCore16FreeBusyUrlStore7Private5sSelfE@Base 15.08.0
- _ZN8KCalCore16FreeBusyUrlStore7readUrlERK7QString@Base 15.08.0
- _ZN8KCalCore16FreeBusyUrlStore8writeUrlERK7QStringS3_@Base 15.08.0
- _ZN8KCalCore16FreeBusyUrlStoreC1Ev@Base 15.08.0
- _ZN8KCalCore16FreeBusyUrlStoreC2Ev@Base 15.08.0
- _ZN8KCalCore16FreeBusyUrlStoreD1Ev@Base 15.08.0
- _ZN8KCalCore16FreeBusyUrlStoreD2Ev@Base 15.08.0
  _ZN8KCalCore16ICalTimeZoneData12virtual_hookEiPv@Base 15.07.90
  _ZN8KCalCore16ICalTimeZoneDataC1ERK13KTimeZoneDataRK9KTimeZoneRK5QDate@Base 15.07.90
  _ZN8KCalCore16ICalTimeZoneDataC1ERKS0_@Base 15.07.90
@@ -387,8 +368,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore4Todo18setPercentCompleteEi@Base 15.07.90
  _ZN8KCalCore4Todo6acceptERNS_7VisitorERK14QSharedPointerINS_13IncidenceBaseEE@Base 15.07.90
  _ZN8KCalCore4Todo6assignERKNS_13IncidenceBaseE@Base 15.07.90
- _ZN8KCalCore4Todo7Private4initERKS1_@Base 15.08.0
- _ZN8KCalCore4Todo7Private9recurTodoEPS0_@Base 15.08.0
  _ZN8KCalCore4Todo8setDtDueERK9KDateTimeb@Base 15.07.90
  _ZN8KCalCore4Todo9serializeER11QDataStream@Base 15.07.90
  _ZN8KCalCore4Todo9setAllDayEb@Base 15.07.90
@@ -533,8 +512,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore8Attendee16customPropertiesEv@Base 15.07.90
  _ZN8KCalCore8Attendee17setCustomPropertyERK10QByteArrayRK7QString@Base 15.07.90
  _ZN8KCalCore8Attendee6setUidERK7QString@Base 15.07.90
- _ZN8KCalCore8Attendee7Private9setCuTypeENS0_6CuTypeE@Base 15.08.0
- _ZN8KCalCore8Attendee7Private9setCuTypeERK7QString@Base 15.08.0
  _ZN8KCalCore8Attendee7setRSVPEb@Base 15.07.90
  _ZN8KCalCore8Attendee7setRoleENS0_4RoleE@Base 15.07.90
  _ZN8KCalCore8Attendee9setCuTypeENS0_6CuTypeE@Base 15.07.90
@@ -599,7 +576,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore8Calendar31notifyIncidenceAdditionCanceledERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
  _ZN8KCalCore8Calendar4saveEv@Base 15.07.90
  _ZN8KCalCore8Calendar6reloadEv@Base 15.07.90
- _ZN8KCalCore8Calendar7Private14timeZoneIdSpecERK7QStringb@Base 15.08.0
  _ZN8KCalCore8Calendar8setOwnerERK14QSharedPointerINS_6PersonEE@Base 15.07.90
  _ZN8KCalCore8Calendar9endChangeERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
  _ZN8KCalCore8Calendar9setFilterEPNS_9CalFilterE@Base 15.07.90
@@ -638,9 +614,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore8FreeBusy5mergeERK14QSharedPointerIS0_E@Base 15.07.90
  _ZN8KCalCore8FreeBusy6acceptERNS_7VisitorERK14QSharedPointerINS_13IncidenceBaseEE@Base 15.07.90
  _ZN8KCalCore8FreeBusy6assignERKNS_13IncidenceBaseE@Base 15.07.90
- _ZN8KCalCore8FreeBusy7Private14addLocalPeriodEPS0_RK9KDateTimeS5_@Base 15.08.0
- _ZN8KCalCore8FreeBusy7Private4initERK7QVectorI14QSharedPointerINS_5EventEEERK9KDateTimeSB_@Base 15.08.0
- _ZN8KCalCore8FreeBusy7Private4initERKS1_@Base 15.08.0
  _ZN8KCalCore8FreeBusy8setDtEndERK9KDateTime@Base 15.07.90
  _ZN8KCalCore8FreeBusy8sortListEv@Base 15.07.90
  _ZN8KCalCore8FreeBusy9addPeriodERK9KDateTimeRKNS_8DurationE@Base 15.07.90
@@ -684,8 +657,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore9CalFormat14setApplicationERK7QStringS3_@Base 15.07.90
  _ZN8KCalCore9CalFormat15loadedProductIdEv@Base 15.07.90
  _ZN8KCalCore9CalFormat18setLoadedProductIdERK7QString@Base 15.07.90
- _ZN8KCalCore9CalFormat7Private10mProductIdE@Base 15.08.0
- _ZN8KCalCore9CalFormat7Private12mApplicationE@Base 15.08.0
  _ZN8KCalCore9CalFormat9productIdEv@Base 15.07.90
  _ZN8KCalCore9CalFormatC1Ev@Base 15.07.90
  _ZN8KCalCore9CalFormatC2Ev@Base 15.07.90
@@ -815,7 +786,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZNK8KCalCore10Recurrence6rDatesEv@Base 15.07.90
  _ZNK8KCalCore10Recurrence6rRulesEv@Base 15.07.90
  _ZNK8KCalCore10Recurrence6recursEv@Base 15.07.90
- _ZNK8KCalCore10Recurrence7PrivateeqERKS1_@Base 15.08.0
  _ZNK8KCalCore10Recurrence7endDateEv@Base 15.07.90
  _ZNK8KCalCore10Recurrence7exDatesEv@Base 15.07.90
  _ZNK8KCalCore10Recurrence7exRulesEv@Base 15.07.90
@@ -885,8 +855,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZNK8KCalCore14MemoryCalendar4todoERK7QStringRK9KDateTime@Base 15.07.90
  _ZNK8KCalCore14MemoryCalendar5eventERK7QStringRK9KDateTime@Base 15.07.90
  _ZNK8KCalCore14MemoryCalendar6alarmsERK9KDateTimeS3_b@Base 15.07.90
- _ZNK8KCalCore14MemoryCalendar7Private16deletedIncidenceERK7QStringRK9KDateTimeNS_13IncidenceBase13IncidenceTypeE@Base 15.08.0
- _ZNK8KCalCore14MemoryCalendar7Private9incidenceERK7QStringNS_13IncidenceBase13IncidenceTypeERK9KDateTime@Base 15.08.0
  _ZNK8KCalCore14MemoryCalendar7journalERK7QStringRK9KDateTime@Base 15.07.90
  _ZNK8KCalCore14MemoryCalendar8alarmsToERK9KDateTime@Base 15.07.90
  _ZNK8KCalCore14MemoryCalendar8instanceERK7QString@Base 15.07.90
@@ -912,11 +880,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZNK8KCalCore14RecurrenceRule6allDayEv@Base 15.07.90
  _ZNK8KCalCore14RecurrenceRule6byDaysEv@Base 15.07.90
  _ZNK8KCalCore14RecurrenceRule6recursEv@Base 15.07.90
- _ZNK8KCalCore14RecurrenceRule7Private10buildCacheEv@Base 15.08.0
- _ZNK8KCalCore14RecurrenceRule7Private16datesForIntervalERK10ConstraintNS0_10PeriodTypeE@Base 15.08.0
- _ZNK8KCalCore14RecurrenceRule7Private24getNextValidDateIntervalERK9KDateTimeNS0_10PeriodTypeE@Base 15.08.0
- _ZNK8KCalCore14RecurrenceRule7Private28getPreviousValidDateIntervalERK9KDateTimeNS0_10PeriodTypeE@Base 15.08.0
- _ZNK8KCalCore14RecurrenceRule7PrivateeqERKS1_@Base 15.08.0
  _ZNK8KCalCore14RecurrenceRule7WDayPos3dayEv@Base 15.07.90
  _ZNK8KCalCore14RecurrenceRule7WDayPos3posEv@Base 15.07.90
  _ZNK8KCalCore14RecurrenceRule7WDayPoseqERKS1_@Base 15.07.90
@@ -941,7 +904,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZNK8KCalCore16CustomProperties16customPropertiesEv@Base 15.07.90
  _ZNK8KCalCore16CustomProperties20nonKDECustomPropertyERK10QByteArray@Base 15.07.90
  _ZNK8KCalCore16CustomProperties30nonKDECustomPropertyParametersERK10QByteArray@Base 15.07.90
- _ZNK8KCalCore16CustomProperties7PrivateeqERKS1_@Base 15.08.0
  _ZNK8KCalCore16CustomPropertieseqERKS0_@Base 15.07.90
  _ZNK8KCalCore16ICalTimeZoneData12icalTimezoneEv@Base 15.07.90
  _ZNK8KCalCore16ICalTimeZoneData12lastModifiedEv@Base 15.07.90
@@ -1049,8 +1011,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZNK8KCalCore8Attendee4roleEv@Base 15.07.90
  _ZNK8KCalCore8Attendee6cuTypeEv@Base 15.07.90
  _ZNK8KCalCore8Attendee6statusEv@Base 15.07.90
- _ZNK8KCalCore8Attendee7Private6cuTypeEv@Base 15.08.0
- _ZNK8KCalCore8Attendee7Private9cuTypeStrEv@Base 15.08.0
  _ZNK8KCalCore8Attendee8delegateEv@Base 15.07.90
  _ZNK8KCalCore8Attendee9cuTypeStrEv@Base 15.07.90
  _ZNK8KCalCore8Attendee9delegatorEv@Base 15.07.90
@@ -1264,9 +1224,6 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZTVN8KCalCore9CalFormatE@Base 15.07.90
  _ZTVN8KCalCore9ExceptionE@Base 15.07.90
  _ZTVN8KCalCore9IncidenceE@Base 15.07.90
- _ZZZN8KCalCore8Calendar7PrivateC4EvENKUlvE0_clEvE15qstring_literal@Base 15.08.0
- _ZZZN8KCalCore8Calendar7PrivateC4EvENKUlvE_clEvE15qstring_literal@Base 15.08.0
- _ZZZNK8KCalCore16CustomProperties7Private18isVolatilePropertyERK7QStringENKUlvE_clEvE15qstring_literal@Base 15.08.0
  (c++)"non-virtual thunk to KCalCore::Calendar::customPropertyUpdated()@Base" 15.07.90
  (c++)"non-virtual thunk to KCalCore::Calendar::incidenceUpdated(QString const&, KDateTime const&)@Base" 15.07.90
  (c++)"non-virtual thunk to KCalCore::Calendar::~Calendar()@Base" 15.07.90
