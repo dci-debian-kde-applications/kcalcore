@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64
 libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _Z5qHashRKN8KCalCore6PeriodE@Base 15.07.90
  _Z5qHashRKN8KCalCore6PersonE@Base 15.07.90

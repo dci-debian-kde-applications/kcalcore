@@ -1,8 +1,27 @@
+kcalcore (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Debian merge: No remaining changes. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 29 Jan 2016 11:07:10 -0800
+
+kcalcore (4:15.12.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:22:19 +0100
+
 kcalcore (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:42:32 +0000
+
+kcalcore (4:15.08.2-1) experimental; urgency=medium
+
+  * New upstream release (15.08.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Oct 2015 08:07:12 +0200
 
 kcalcore (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -11,12 +30,25 @@ kcalcore (4:15.08.2-0ubuntu1) wily; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 12:04:56 +0100
 
+kcalcore (4:15.08.1-1) experimental; urgency=medium
+
+  * New upstream release (15.08.1).
+  * Removed private classes from exported symbols.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:27 +0200
+
 kcalcore (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
   * Added new symbols and removed MISSING
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:19:42 +0100
+
+kcalcore (4:15.08.0-1) experimental; urgency=medium
+
+  * Initial Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 00:44:51 +0200
 
 kcalcore (4:15.08.0-0ubuntu1) wily; urgency=medium
 
