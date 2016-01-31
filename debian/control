@@ -37,16 +37,3 @@ Description: calendar access framework
  This library provides access to and handling of calendar data.
  It supports the standard formats iCalendar and vCalendar and the
  group scheduling standard iTIP.
-
-Package: libkf5calendarcore-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5calendarcore5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kcalcore
- This library provides access to and handling of calendar data.
- It supports the standard formats iCalendar and vCalendar and the
- group scheduling standard iTIP.
- .
- This package contains the debug symbols.
