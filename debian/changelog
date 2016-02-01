@@ -1,10 +1,14 @@
 kcalcore (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release.
   * Debian merge: No remaining changes. 
   * Fix install file. 
   * Undo last change, .so change only for master (unstable).  
   * Now bump .so version in unstable. 
+
+  [ Clive Johnston ]
+  * Updating symbols 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 29 Jan 2016 11:07:10 -0800
 
