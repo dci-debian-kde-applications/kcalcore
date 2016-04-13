@@ -1,3 +1,11 @@
+kcalcore (4:15.12.3-1~1.gbpd1f070) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d1f070896e72387e9bb618047fa05d944abe0c3a **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:47:38 +0200
+
 kcalcore (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
