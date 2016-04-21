@@ -1,10 +1,12 @@
-kcalcore (4:15.12.3-1~1.gbpd1f070) UNRELEASED; urgency=medium
+kcalcore (4:16.04.0-1~1.gbpb10625) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d1f070896e72387e9bb618047fa05d944abe0c3a **
+  ** SNAPSHOT build @b106254aca481ed6cfc18b6c0433f31c92d202de **
 
   * Bump Standards-Version to 3.9.8
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:47:38 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 06:33:15 +0200
 
 kcalcore (4:15.12.0-1) experimental; urgency=medium
 
