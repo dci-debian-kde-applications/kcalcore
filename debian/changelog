@@ -1,12 +1,22 @@
-kcalcore (4:16.04.0-1~1.gbpb10625) UNRELEASED; urgency=medium
+kcalcore (4:16.04.0-1~2.gbpaec9c9) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @aec9c9382629ee96a5760ab8e022d94c0b112492 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @b106254aca481ed6cfc18b6c0433f31c92d202de **
 
   * Bump Standards-Version to 3.9.8
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 06:33:15 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update install files
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 24 Apr 2016 20:28:27 +0200
 
 kcalcore (4:15.12.2-1~) UNRELEASED; urgency=medium
 
