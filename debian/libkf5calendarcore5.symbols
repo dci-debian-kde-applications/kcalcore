@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.0 amd64
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64 armhf i386
 libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _Z5qHashRKN8KCalCore6PeriodE@Base 15.07.90
  _Z5qHashRKN8KCalCore6PersonE@Base 15.07.90
@@ -70,18 +70,24 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore10Recurrence12deleteExRuleEPNS_14RecurrenceRuleE@Base 15.07.90
  _ZN8KCalCore10Recurrence12removeExRuleEPNS_14RecurrenceRuleE@Base 15.07.90
  _ZN8KCalCore10Recurrence12setFrequencyEi@Base 15.07.90
+ _ZN8KCalCore10Recurrence12setYearlyDayERK5QListIiE@Base 4:16.04.0
+ _ZN8KCalCore10Recurrence12setYearlyPosER5QListINS_14RecurrenceRule7WDayPosEE@Base 4:16.04.0
  _ZN8KCalCore10Recurrence13addExDateTimeERK9KDateTime@Base 15.07.90
  _ZN8KCalCore10Recurrence13addMonthlyPosEsRK9QBitArray@Base 15.07.90
  _ZN8KCalCore10Recurrence13addMonthlyPosEst@Base 15.07.90
  _ZN8KCalCore10Recurrence13addWeeklyDaysERK9QBitArray@Base 15.07.90
  _ZN8KCalCore10Recurrence13addYearlyDateEi@Base 15.07.90
+ _ZN8KCalCore10Recurrence13setMonthlyPosERK5QListINS_14RecurrenceRule7WDayPosEE@Base 4:16.04.0
  _ZN8KCalCore10Recurrence13setRDateTimesERKNS_12SortableListI9KDateTimeEE@Base 15.07.90
+ _ZN8KCalCore10Recurrence13setYearlyDateERK5QListIiE@Base 4:16.04.0
  _ZN8KCalCore10Recurrence14addMonthlyDateEs@Base 15.07.90
  _ZN8KCalCore10Recurrence14addYearlyMonthEs@Base 15.07.90
  _ZN8KCalCore10Recurrence14recurrenceTypeEPKNS_14RecurrenceRuleE@Base 15.07.90
  _ZN8KCalCore10Recurrence14removeObserverEPNS0_18RecurrenceObserverE@Base 15.07.90
  _ZN8KCalCore10Recurrence14setEndDateTimeERK9KDateTime@Base 15.07.90
  _ZN8KCalCore10Recurrence14setExDateTimesERKNS_12SortableListI9KDateTimeEE@Base 15.07.90
+ _ZN8KCalCore10Recurrence14setMonthlyDateERK5QListIiE@Base 4:16.04.0
+ _ZN8KCalCore10Recurrence14setYearlyMonthERK5QListIiE@Base 4:16.04.0
  _ZN8KCalCore10Recurrence16setRecurReadOnlyEb@Base 15.07.90
  _ZN8KCalCore10Recurrence16setStartDateTimeERK9KDateTime@Base 15.07.90
  _ZN8KCalCore10Recurrence17recurrenceChangedEPNS_14RecurrenceRuleE@Base 15.07.90
@@ -134,8 +140,11 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore10VCalFormatD0Ev@Base 15.07.90
  _ZN8KCalCore10VCalFormatD1Ev@Base 15.07.90
  _ZN8KCalCore10VCalFormatD2Ev@Base 15.07.90
+ _ZN8KCalCore11FileStorage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04.0
+ _ZN8KCalCore11FileStorage11qt_metacastEPKc@Base 4:16.04.0
  _ZN8KCalCore11FileStorage11setFileNameERK7QString@Base 15.07.90
  _ZN8KCalCore11FileStorage13setSaveFormatEPNS_9CalFormatE@Base 15.07.90
+ _ZN8KCalCore11FileStorage16staticMetaObjectE@Base 4:16.04.0
  _ZN8KCalCore11FileStorage4loadEv@Base 15.07.90
  _ZN8KCalCore11FileStorage4openEv@Base 15.07.90
  _ZN8KCalCore11FileStorage4saveEv@Base 15.07.90
@@ -237,12 +246,15 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore14MemoryCalendar10addJournalERK14QSharedPointerINS_7JournalEE@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar10deleteTodoERK14QSharedPointerINS_4TodoEE@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar11deleteEventERK14QSharedPointerINS_5EventEE@Base 15.07.90
+ _ZN8KCalCore14MemoryCalendar11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04.0
+ _ZN8KCalCore14MemoryCalendar11qt_metacastEPKc@Base 4:16.04.0
  _ZN8KCalCore14MemoryCalendar12addIncidenceERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar12virtual_hookEiPv@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar13deleteJournalERK14QSharedPointerINS_7JournalEE@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar15deleteIncidenceERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar15incidenceUpdateERK7QStringRK9KDateTime@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar16incidenceUpdatedERK7QStringRK9KDateTime@Base 15.07.90
+ _ZN8KCalCore14MemoryCalendar16staticMetaObjectE@Base 4:16.04.0
  _ZN8KCalCore14MemoryCalendar19deleteTodoInstancesERK14QSharedPointerINS_4TodoEE@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar20deleteEventInstancesERK14QSharedPointerINS_5EventEE@Base 15.07.90
  _ZN8KCalCore14MemoryCalendar22deleteJournalInstancesERK14QSharedPointerINS_7JournalEE@Base 15.07.90
@@ -554,6 +566,8 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore8Calendar16CalendarObserver22calendarIncidenceAddedERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
  _ZN8KCalCore8Calendar16CalendarObserver24calendarIncidenceChangedERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
  _ZN8KCalCore8Calendar16CalendarObserver24calendarIncidenceDeletedERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
+ _ZN8KCalCore8Calendar16CalendarObserver24calendarIncidenceDeletedERK14QSharedPointerINS_9IncidenceEEPKS0_@Base 4:16.04.0
+ _ZN8KCalCore8Calendar16CalendarObserver33calendarIncidenceAboutToBeDeletedERK14QSharedPointerINS_9IncidenceEE@Base 4:16.04.0
  _ZN8KCalCore8Calendar16CalendarObserver33calendarIncidenceAdditionCanceledERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
  _ZN8KCalCore8Calendar16CalendarObserverD0Ev@Base 15.07.90
  _ZN8KCalCore8Calendar16CalendarObserverD1Ev@Base 15.07.90
@@ -573,6 +587,8 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore8Calendar22notifyIncidenceChangedERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
  _ZN8KCalCore8Calendar22notifyIncidenceDeletedERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
  _ZN8KCalCore8Calendar25clearNotebookAssociationsEv@Base 15.07.90
+ _ZN8KCalCore8Calendar25notifyIncidenceDeletedOldERK14QSharedPointerINS_9IncidenceEE@Base 4:16.04.0
+ _ZN8KCalCore8Calendar31notifyIncidenceAboutToBeDeletedERK14QSharedPointerINS_9IncidenceEE@Base 4:16.04.0
  _ZN8KCalCore8Calendar31notifyIncidenceAdditionCanceledERK14QSharedPointerINS_9IncidenceEE@Base 15.07.90
  _ZN8KCalCore8Calendar4saveEv@Base 15.07.90
  _ZN8KCalCore8Calendar6reloadEv@Base 15.07.90
@@ -803,6 +819,7 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZNK8KCalCore10VCalFormat11writeStatusENS_8Attendee8PartStatE@Base 15.07.90
  _ZNK8KCalCore10VCalFormat7parseTZERK10QByteArray@Base 15.07.90
  _ZNK8KCalCore10VCalFormat8parseDstER10QByteArray@Base 15.07.90
+ _ZNK8KCalCore11FileStorage10metaObjectEv@Base 4:16.04.0
  _ZNK8KCalCore11FileStorage10saveFormatEv@Base 15.07.90
  _ZNK8KCalCore11FileStorage8fileNameEv@Base 15.07.90
  _ZNK8KCalCore12ICalTimeZone12icalTimezoneEv@Base 15.07.90
@@ -838,6 +855,7 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZNK8KCalCore14FreeBusyPeriod4typeEv@Base 15.07.90
  _ZNK8KCalCore14FreeBusyPeriod7summaryEv@Base 15.07.90
  _ZNK8KCalCore14FreeBusyPeriod8locationEv@Base 15.07.90
+ _ZNK8KCalCore14MemoryCalendar10metaObjectEv@Base 4:16.04.0
  _ZNK8KCalCore14MemoryCalendar11deletedTodoERK7QStringRK9KDateTime@Base 15.07.90
  _ZNK8KCalCore14MemoryCalendar11rawJournalsENS_16JournalSortFieldENS_13SortDirectionE@Base 15.07.90
  _ZNK8KCalCore14MemoryCalendar12deletedEventERK7QStringRK9KDateTime@Base 15.07.90
