@@ -1,15 +1,10 @@
-kcalcore (4:16.04.1-1~1.gbp89a3a1) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @89a3a167a9127b6b85a8ca626f176989d3a70499 **
+kcalcore (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @b106254aca481ed6cfc18b6c0433f31c92d202de **
-
   * Bump Standards-Version to 3.9.8
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
-  * UNRELEASED
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
@@ -18,13 +13,7 @@ kcalcore (4:16.04.1-1~1.gbp89a3a1) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:33:17 +0200
-
-kcalcore (4:15.12.2-1~) UNRELEASED; urgency=medium
-
-  * New upstream release (15.12.2).
-
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 10:11:32 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:32:56 +0200
 
 kcalcore (4:15.12.0-1) experimental; urgency=medium
 
