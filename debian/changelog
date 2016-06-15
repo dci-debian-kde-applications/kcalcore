@@ -1,3 +1,11 @@
+kcalcore (4:16.04.2-1~1.gbp56d406) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @56d406fb210719b3bca43dccb60d40f38b517b24 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 06:34:02 +0200
+
 kcalcore (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
