@@ -1,10 +1,16 @@
-kcalcore (4:16.04.3-1~1.gbp562fa1) UNRELEASED; urgency=medium
+kcalcore (4:16.08.0-1~1.gbp9ce7ae) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @9ce7aec75660aa38e1c392e95961254b3b6db517 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @562fa1569d19fa7994ef4ca46a1e8e2600fca9a8 **
 
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 00:33:27 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:33:13 +0200
 
 kcalcore (4:16.04.2-1) unstable; urgency=medium
 
