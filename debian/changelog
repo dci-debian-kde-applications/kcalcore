@@ -1,6 +1,6 @@
-kcalcore (4:16.08.0-1~2.gbpcaffa7) UNRELEASED; urgency=medium
+kcalcore (4:16.08.1-1~1.gbpa75d99) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @caffa75a939738a34a1731add7bb44ce620793ee **
+  ** SNAPSHOT build @a75d992f344069ccb845dd4d10a15e605963b7a0 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @562fa1569d19fa7994ef4ca46a1e8e2600fca9a8 **
@@ -10,8 +10,9 @@ kcalcore (4:16.08.0-1~2.gbpcaffa7) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 28 Aug 2016 13:30:37 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:33:35 +0200
 
 kcalcore (4:16.04.2-1) unstable; urgency=medium
 
