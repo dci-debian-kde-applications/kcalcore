@@ -10,7 +10,7 @@ Build-Depends: bison,
                libical-dev (>= 0.42~),
                libkf5kdelibs4support-dev (>= 5.23.0~),
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.2.0~)
+               qtbase5-dev (>= 5.2.0~),
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/kde/pim/kcalcore
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kcalcore.git
@@ -22,7 +22,7 @@ Architecture: any
 Depends: libical-dev (>= 0.42~),
          libkf5calendarcore5 (= ${binary:Version}),
          libkf5kdelibs4support-dev (>= 5.23.0~),
-         ${misc:Depends}
+         ${misc:Depends},
 Description: development files for kcalcore
  This library provides access to and handling of calendar data.
  It supports the standard formats iCalendar and vCalendar and the
