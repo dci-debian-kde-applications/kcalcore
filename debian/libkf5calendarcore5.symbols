@@ -1,6 +1,5 @@
-# SymbolsHelper-Confirmed: 4:16.08.0 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
- _Z5qHashRKN8KCalCore6PeriodE@Base 15.07.90
  _Z5qHashRKN8KCalCore6PersonE@Base 15.07.90
  _ZN8KCalCore10Attachment11setMimeTypeERK7QString@Base 15.07.90
  _ZN8KCalCore10Attachment13setShowInlineEb@Base 15.07.90
@@ -71,7 +70,7 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore10Recurrence12removeExRuleEPNS_14RecurrenceRuleE@Base 15.07.90
  _ZN8KCalCore10Recurrence12setFrequencyEi@Base 15.07.90
  _ZN8KCalCore10Recurrence12setYearlyDayERK5QListIiE@Base 4:16.04.0
- _ZN8KCalCore10Recurrence12setYearlyPosER5QListINS_14RecurrenceRule7WDayPosEE@Base 4:16.04.0
+ _ZN8KCalCore10Recurrence12setYearlyPosERK5QListINS_14RecurrenceRule7WDayPosEE@Base 4:17.08.0
  _ZN8KCalCore10Recurrence13addExDateTimeERK9KDateTime@Base 15.07.90
  _ZN8KCalCore10Recurrence13addMonthlyPosEsRK9QBitArray@Base 15.07.90
  _ZN8KCalCore10Recurrence13addMonthlyPosEst@Base 15.07.90
@@ -464,6 +463,7 @@ libKF5CalendarCore.so.5 libkf5calendarcore5 #MINVER#
  _ZN8KCalCore5Todos16priorityMoreThanERK14QSharedPointerINS_4TodoEES5_@Base 15.07.90
  _ZN8KCalCore5Todos17startDateLessThanERK14QSharedPointerINS_4TodoEES5_@Base 15.07.90
  _ZN8KCalCore5Todos17startDateMoreThanERK14QSharedPointerINS_4TodoEES5_@Base 15.07.90
+ _ZN8KCalCore5qHashERKNS_6PeriodE@Base 4:17.08.0
  _ZN8KCalCore6Events15endDateLessThanERK14QSharedPointerINS_5EventEES5_@Base 15.07.90
  _ZN8KCalCore6Events15endDateMoreThanERK14QSharedPointerINS_5EventEES5_@Base 15.07.90
  _ZN8KCalCore6Events15summaryLessThanERK14QSharedPointerINS_5EventEES5_@Base 15.07.90
