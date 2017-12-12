@@ -119,6 +119,19 @@ kcalcore (4:16.07.80-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Wed, 27 Jul 2016 16:39:03 +0000
 
+kcalcore (4:16.04.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Switch build & runtime dependencies from libical-dev to libical2-dev:
+    kcalcore does not support libical3 yet, so use libical2 for now.
+    (Closes: #883960)
+  * Backport upstream commit 93b2da839a298aab705c1865ee65e009aef53a55 to fix
+    build with Qt >= 5.9; patch
+    upstream_Port-away-from-qt_qhash_seed-which-is-going-away-in-.patch.
+    (Closes: #877313)
+
+ -- Pino Toscano <pino@debian.org>  Tue, 12 Dec 2017 20:22:28 +0100
+
 kcalcore (4:16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
