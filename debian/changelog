@@ -5,6 +5,11 @@ kcalcore (4:17.08.3-1) UNRELEASED; urgency=medium
   * Add Mulit-Arch hints for libkf5calendarcore-dev.
   * Bump Standards-Version to 4.1.2 (No changes needed).
 
+  [ Pino Toscano ]
+  * Merge changes from 4:16.04.2-2:
+    - upstream_Port-away-from-qt_qhash_seed-which-is-going-away-in-.patch:
+      drop, backported from upstream
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 11:49:15 +0100
 
 kcalcore (4:17.08.0-1) experimental; urgency=medium
