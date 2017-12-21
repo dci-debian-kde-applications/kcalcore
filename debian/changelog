@@ -1,4 +1,6 @@
-kcalcore (4:17.08.3-1) UNRELEASED; urgency=medium
+kcalcore (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Sandro Knauß ]
   * New upstream release (17.08.3).
@@ -11,7 +13,7 @@ kcalcore (4:17.08.3-1) UNRELEASED; urgency=medium
     - upstream_Port-away-from-qt_qhash_seed-which-is-going-away-in-.patch:
       drop, backported from upstream
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 11:49:15 +0100
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 17:52:57 +0100
 
 kcalcore (4:17.08.0-1) experimental; urgency=medium
 
