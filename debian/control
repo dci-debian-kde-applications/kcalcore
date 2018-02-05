@@ -6,13 +6,13 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: bison,
                cmake (>= 3.0~),
                debhelper (>= 10),
-               extra-cmake-modules (>= 5.35.0~),
+               extra-cmake-modules (>= 5.39.0~),
                libical2-dev (>= 0.42~),
                libkf5config-dev (>= 5.35.0~),
                libkf5itemmodels-dev (>= 5.35.0~),
                libkf5kdelibs4support-dev (>= 5.35.0~),
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.7.0~),
+               qtbase5-dev (>= 5.8.0~),
 Standards-Version: 4.1.2
 Homepage: https://projects.kde.org/projects/kde/pim/kcalcore
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kcalcore.git
