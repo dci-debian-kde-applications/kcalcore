@@ -6,6 +6,7 @@ kcalcore (4:17.12.1-0) UNRELEASED; urgency=medium
   * Use DebianABIManager to handle libkf5calendarcore5 properly
   * Update library from libkf5calendarcore5 -> libkf5calendarcore5abi1,
     because of ABI breakage.
+  * Bump Standards-Version 4.1.3 (no changes needed).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Feb 2018 10:23:13 +0100
 
